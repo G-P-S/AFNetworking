@@ -114,6 +114,12 @@
  */
 - (void)cancelImageRequestOperation;
 
+
+/**
+ True if image is already cached in NSCache
+ */
++ (BOOL)isImageWithURLCached:(NSURL *)url;
+
 @end
 
 #pragma mark -
