@@ -1,6 +1,6 @@
 // UIWebView+AFNetworking.m
 //
-// Copyright (c) 2013 AFNetworking (http://afnetworking.com)
+// Copyright (c) 2013-2014 AFNetworking (http://afnetworking.com)
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -27,6 +27,8 @@
 #if defined(__IPHONE_OS_VERSION_MIN_REQUIRED)
 
 #import "AFHTTPRequestOperation.h"
+#import "AFURLResponseSerialization.h"
+#import "AFURLRequestSerialization.h"
 
 @interface UIWebView (_AFNetworking)
 @property (readwrite, nonatomic, strong, setter = af_setHTTPRequestOperation:) AFHTTPRequestOperation *af_HTTPRequestOperation;
